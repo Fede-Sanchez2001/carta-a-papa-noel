@@ -14,7 +14,7 @@ function probarValidarNombre() {
 function probarValidarCiudad(){
     console.assert(validarCiudad("")==="Debes elegir una ciudad", 
     "validarCiudad() no mostro error cuando no eligieron una ciudad")
-
+d
     console.assert(validarCiudad("Buenos Aires") === "", 
     "validarCiudad() no esta funcionando con una ciudad valida")
 
